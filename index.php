@@ -6,13 +6,13 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My BLOGS</title>
+	<title>BLOG 33</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/css.css">
 </head>
 <body>
 	<div class="top-gray"></div>
 	<div class="header">
-		<div class="big-logo">Latihan CRUDSRUD di BLOG</div>
+		<div class="big-logo">Donz's Blog</div>
 		<?php include 'menu.php';?>
 	</div>
 	<div class="content">
@@ -23,18 +23,18 @@
 						case 'home':
 							inc('home');
 							break;
-						case 'artikel':
+						case 'sekolah':
 							switch (get('m')) {
 								case 'home':
-									inc('tampilan/artikel/all');
+									inc('tampilan/sekolah/all');
 									break;
 								case 'add':
-									inc('tampilan/artikel/add');
+									inc('tampilan/sekolah/add');
 									break;
 								case 'edit':
-									inc('tampilan/artikel/edit');
+									inc('tampilan/sekolah/edit');
 								default:
-									inc('tampilan/artikel/all');
+									inc('tampilan/sekolah/all');
 									break;
 							}
 							break;

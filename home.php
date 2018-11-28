@@ -1,1 +1,1 @@
-<h1>Welcome to My Blog!</h1>
+<h2>Welcome to Sultan's Blog</h2>

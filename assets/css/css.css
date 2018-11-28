@@ -85,12 +85,15 @@ table.data,table.data tr th,table.data tr td {
 table.data tr td {
 	text-align: center;
 }
-input {
+input, textarea {
 	font-size: 12pt;
 	font-family: Candara;
 	padding: 5px;
 	width: 100%;
 	border:1px solid #999;
+}
+textarea:hover {
+	border:1px solid #bf3e11;
 }
 input:hover {
 	border:1px solid #bf3e11;
@@ -98,7 +101,7 @@ input:hover {
 
 @media screen and (max-width: 600px) {
 	* {
-		margin: 15px 30px 12px 12px;
+		margin: 0px 20px 0px 12px;
 	}
 	.big-logo {
 		font-size:50px;
@@ -106,14 +109,14 @@ input:hover {
 	}
 	.menu ul li{
 		display: block;
-		padding: 36px 30px;
-		font-size: 25px;
+		padding: 47px 50px;
+		font-size: 27px;
 	}
 	.container {
 		font-size: 25px;
 	}
-	.data-sekolah {
-		font-size: 50px;
+	.Data_sekolah {
+		font-size: 40px;
 	}
 	.pull-right {
 		float:none;
@@ -121,16 +124,15 @@ input:hover {
 	button,.btn {
 		display: block;
 		text-align: center;
-		padding: 20px;
-		font-size: 30px;
+		padding: 15px;
+		font-size: 25px;
 	}
-
 	.search {
 		display: block;
 		float: none;
 		width: 953px;
 		height: 35px;
 		margin-left: -23.5px;
-		font-size: 30px;
+		font-size: 25px;
 	}
-}
+	
