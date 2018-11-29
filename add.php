@@ -1,5 +1,5 @@
-<h2>Tambah Data Sekolah</h2>
-<form method="POST" action="proses/sekolah/save.php" enctype="multipart/form-data">
+<h2>Tambah Data Artikel</h2>
+<form method="POST" action="proses/artikel/save.php" enctype="multipart/form-data">
 	<table>
 		<tr>
 			<td>Judul</td>

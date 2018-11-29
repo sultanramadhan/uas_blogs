@@ -12,7 +12,7 @@
 <body>
 	<div class="top-gray"></div>
 	<div class="header">
-		<div class="big-logo">Donz's Blog</div>
+		<div class="big-logo">Sultan's Blog</div>
 		<?php include 'menu.php';?>
 	</div>
 	<div class="content">
@@ -23,18 +23,18 @@
 						case 'home':
 							inc('home');
 							break;
-						case 'sekolah':
+						case 'artikel':
 							switch (get('m')) {
 								case 'home':
-									inc('tampilan/sekolah/all');
+									inc('tampilan/artikel/all');
 									break;
 								case 'add':
-									inc('tampilan/sekolah/add');
+									inc('tampilan/artikel/add');
 									break;
 								case 'edit':
-									inc('tampilan/sekolah/edit');
+									inc('tampilan/artikel/edit');
 								default:
-									inc('tampilan/sekolah/all');
+									inc('tampilan/artikel/all');
 									break;
 							}
 							break;

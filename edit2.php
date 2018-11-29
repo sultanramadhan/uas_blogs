@@ -12,7 +12,7 @@
 		</tr>
 		<tr>
 			<td>Konten</td>
-			<td><textarea name="konten" value=' <?php echo $data['konten'];?>'></textarea></td>
+			<td><textarea type="text"name="konten" value=' <?php echo $data['konten'];?>'></textarea></td>
 		</tr>
 		<tr>
 			<td>Penulis</td>

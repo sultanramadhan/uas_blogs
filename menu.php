@@ -1,6 +1,6 @@
 <div class="menu">
 	<ul>
-		<li><a href="index.php?p=home">Blog</a></li>
-		<li><a href="index.php?p=sekolah">CRUD</a></li>
+		<li><a href="index.php?p=blog">Blog</a></li>
+		<li><a href="index.php?p=artikel">CRUD</a></li>
 	</ul>
 </div>

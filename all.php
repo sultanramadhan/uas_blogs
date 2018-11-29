@@ -7,10 +7,10 @@
 	$data = $hasil->fetchAll();
 ?>
 <br>
-<h2 class="Data_sekolah">Data Sekolah</h2>
-<a class="btn pull-right" href="index.php?p=sekolah&m=add">Tambah Baru</a>
+<h2 class="Data_sekolah">Data Konten</h2>
+<a class="btn pull-right" href="index.php?p=artikel&m=add">Tambah Baru</a>
 <div style="clear:both;width:200px;margin-right:12px;" class="pull-right">
-	<form action="index.php?p=sekolah&m=search">
+	<form action="index.php?p=artikel&m=search">
 		<input autocomplete="off" type="hidden" name="p" value="sekolah">
 		<input class="search" autocomplete="off" type="text" name="q" placeHolder="Type and enter to search" value="<?php echo (get("q"));?>">
 	</form>
@@ -37,10 +37,10 @@
 	<td><?php echo $key['judul'];?></td>
 	<td><?php echo $key['konten'];?></td>
 	<td><?php echo $key['penulis'];?></td>
-	<td><a class="edit"href="index.php?p=sekolah&m=edit&id=
+	<td><a class="edit"href="index.php?p=artikel&m=edit&id=
 		<?php echo $key['id'];?>">Ubah</a></td>
 <td><a onclick="return confirm('Hapus Data <?php echo $key['nama'];?>')"
-href="proses/sekolah/hapus.php?id=
+href="proses/artikel/hapus.php?id=
 <?php echo $key['id'];?>">Hapus</a></td>
 </tr>
 <?php
